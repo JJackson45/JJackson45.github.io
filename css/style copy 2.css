@@ -1,0 +1,405 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.navb{
+    background:rgb(221, 164, 164);
+    text-align: center;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+}
+@media (max-width:768px){
+    .navb{
+        display: none;
+    }
+}
+/* rgb(235, 93, 93) */
+.cl{
+    color: transparent;
+}
+.tal{
+    text-align: center;
+}
+div{
+    color: black;
+}
+i{
+    font-size: 29px;
+}
+
+
+ li{
+    list-style-type: none;
+}
+.whit{
+    color:transparent;
+}
+
+a{
+    text-decoration-line: none;
+    color: rgba(22, 21, 21, 0.705);
+    margin-right: 34px;
+}
+
+.padb{
+    padding-bottom: 10px;
+}
+@media (max-width:768px){
+    .padb{
+        text-align: center;
+    }
+}
+
+.fonts{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.color{
+    color: rgb(0, 0, 0); 
+}
+
+    
+
+.color:hover{
+    transition: all 0.5s ease-in-out;
+    font-size: 33px;
+    color: rgb(0, 0, 0);
+}
+.marginleft{
+    margin-left: 100px;
+}
+@media (max-width:768px){
+    .marginleft{
+        margin-left: 0%;
+    }
+}
+
+ body{ 
+     background-image: url(https://www.graphicstandards.com/wp-content/uploads/2017/01/AGS-background-red-building.png);
+    background-size: auto;
+    background-attachment: fixed;
+    /* https://media.istockphoto.com/illustrations/frame-border-watercolor-of-japanese-fish-carp-koi-swimming-in-on-illustration-id1137682519 */
+} 
+
+ .content{
+    background: #b76e79;
+    width:50%;
+} 
+
+ .wrapper{
+    margin-left: 25%;
+    width: 75%;
+    animation: slide-in 6s;
+    animation-delay: 0.4s;
+    scroll-behavior: smooth;
+}
+@media (max-width:768){
+    .wrapper{
+        font-size: 15px;
+    } 
+}
+main{
+    animation: slide-in 2s ease-in-out;
+}
+@keyframes slide-in{
+    0%{margin-top: 100%;}
+    100%{margin-bottom: 0%;}
+}
+
+
+.text{
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+}
+@media (max-width:768px){
+    .text{
+        font-size: 35px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: oblique;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+}
+
+.text2{
+    margin-top: 100px;
+} 
+@media (max-width:768px){
+    .text2{
+        margin-top: 100px;
+    }
+}
+
+ .homepic{ 
+    background-image: url(https://i.imgur.com/ckQFAoI.gif?noredirect);
+    background-size: 50px;
+    background-attachment: fixed;
+}
+
+.margtt{
+    margin-top: 60px; 
+}
+@media (max-width:768px){
+    .margtt{
+        margin-top: 79px;
+        margin-left: 0px;
+        text-align: center;
+        width: 105px;
+        height: 105px;
+    }
+}
+.margt6{
+    margin-top: 113px;
+    margin-left: 50px;
+} 
+
+.margt2{
+    margin-top: 60px;
+ }
+ @media (max-width:768px){
+    .margt2{
+        width: 100px;
+        height: 125px;
+    }
+}
+ 
+
+.img1{
+    border-radius: 50%;
+}
+.img5{
+    margin-right: 50px;
+}
+.img4{
+    border-style: solid;
+    border-width: 10px;
+    width: 200px;
+    height: 230px;
+    border-radius: 15px;
+    display: block;
+    margin-top: 70px;
+    position: relative;
+    border-color: black;
+}
+@media (max-width:768px){
+    .img4{ border-style: solid;
+        border-width: 10px;
+        width: 200px;
+        height: 230px;
+        border-radius: 15px;
+        display: block;
+        margin-top: 70px;
+        margin-left: 105px;
+        position: relative;
+        border-color: black;
+        
+    }
+}
+
+.img3{
+    border-style: solid;
+    border-width: 10px;
+    width: 200px;
+    height: 230px;
+    border-radius: 15px;
+    display: block;
+    margin-top: 70px;
+    position: relative;
+    border-color: black;
+}
+@media (max-width:768px){
+    .img3{
+        display: none;
+    }
+}
+
+.margintop{
+    margin-top: 70px;
+    padding-top: 70px;
+}
+
+ .imgbig{
+    width: 170px;
+    height: 170px;
+}
+
+.size{
+    height: 550px;
+    width: 775px;
+    border-style: solid;
+    border-radius: 15px;
+    float: left;
+    background-color: rgb(221, 164, 164);
+}
+@media (max-width:768px){
+    .size{
+        width:450px;
+        height:450px;
+    }
+}
+
+h3{
+    font-size: 40px;
+
+}
+.block{
+    height: 60px;
+    width: 100%;
+    border-style: solid;
+    border-color: transparent;
+    float: left;
+}
+.size2{
+    height: 120px;
+    width: 200px;
+    border-style: solid;
+    border-radius: 15px;
+    float: left;
+    background-color: rgb(221, 164, 164);
+}
+.size3{
+    height: 150px;
+    width: 775px;
+    border-style: solid;
+    border-radius: 15px;
+    float: left;
+    background-color: rgb(221, 164, 164);
+}
+@media (max-width:768px){
+    .size3{
+        width:450px;
+        height:450px;
+    }
+}
+
+
+/* @media (max-width: 426px){
+    p{ font-size: 5px}
+    
+
+} */
+/* Just shrink the boxes for the mobile version and the pictures and everything should fall into place. */
+/* .card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 300px;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 0.5s;  
+}
+
+.card .front
+{  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s; 
+}
+.card:hover .front
+{
+    transform: rotateX(-180deg); 
+}
+.card .back
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+
+}
+
+.card:hover .back
+{
+    transform: rotateX(0deg);  
+}
+
+
+.card .back .details
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card .back .details h4
+{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.card .back::before
+{
+    content:  '';
+    position: absolute;
+    top: 0px;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0);
+} */
+
+
+
+/* make nav bar transparent */
+
+/* .card .back .details h4 span
+{
+    color: #a7a7a7;
+    font-size: 16px;
+
+} */
+
+/* .social-icons
+{
+    padding: 10px;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* .hello{
+    width: 50px;
+    height: 50px;
+    transition: all 2s ease-in-out;
+}
+
+.goodbye{
+    width: 100px height 100px;
+} */
+
+/* do another background image but instead of for the body do it for a single box and use a single running gif */
+/* rose gold color #b76e79 */
